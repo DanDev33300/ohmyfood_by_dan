@@ -1,18 +1,18 @@
 /* Partie Localisation */
 .location{
     display: flex;
-    align-items: center;
     justify-content: center;
+    padding: 1.25rem 1rem;
     background-color: rgba(240, 238, 238, 0.462);
+    font-size: 1.2rem;
+    position: relative;
 
-    .location p{
-        font-size: 19px;
-        font-weight: 600;
-        padding-left: 15px;
+    .local_icon{
+        margin-right: 1rem;
     }
-    
-    .location i{
-        padding-bottom: 3.5px;
+
+    .location_text{
+        font-weight: 700;
     }
 }
 /* Fin de la partie Localisation */
