@@ -3,6 +3,17 @@
   padding: 1rem;
   -webkit-box-shadow: 0 0 0.5rem black;
           box-shadow: 0 0 0.5rem black;
+  position: relative;
+}
+
+.header .return {
+  position: absolute;
+  bottom: 2rem;
+}
+
+.header .return i {
+  font-size: 1.3rem;
+  color: black;
 }
 
 .header .header__logo {
