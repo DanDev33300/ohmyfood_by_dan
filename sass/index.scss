@@ -17,6 +17,19 @@
 }
 /* Fin de la partie Localisation */
 
+/* Partie Description */
+.description{
+    padding: 0.5rem;
+    text-align: center;
+
+    .explorer_btn{
+        margin-top: 2rem;
+        border-radius: 10px ;
+        background-color: #008000;
+        padding: 0.7rem;
+    }
+}
+
 /* Partie Restaurants */
 .restaurants{
     background-color: #f6f6f6;
