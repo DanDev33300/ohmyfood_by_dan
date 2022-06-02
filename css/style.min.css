@@ -23,4 +23,15 @@ body {
   margin: 0;
   text-align: center;
 }
+
+/* Partie Footer */
+.footer__container {
+  background-color: grey;
+}
+
+.footer__logo {
+  font-size: 1.2rem;
+  font-family: "Shrikhand", cursive;
+  margin: 0;
+}
 /*# sourceMappingURL=style.min.css.map */
