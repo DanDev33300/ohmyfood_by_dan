@@ -23,54 +23,8 @@ body {
   font-family: "Shrikhand", cursive;
   margin: 0;
   text-align: center;
+  margin-left: 30px;
 }
 
 /* Fin de la partie Header */
-/* Partie Footer */
-.footer {
-  background-color: #353535;
-}
-
-.footer .footer__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 1rem;
-  max-width: 1280px;
-  margin: auto;
-  position: relative;
-}
-
-.footer .footer__container .footer__logo {
-  color: #fff;
-  font-size: 1.2rem;
-  font-family: "Shrikhand", cursive;
-  margin: 0 0 1rem 0;
-}
-
-.footer .footer__container .footer__list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer .footer__container .footer__list .footer__list2 {
-  margin: 0 0 0.5rem 0;
-}
-
-.footer .footer__container .footer__list .footer__list2 .footer__link {
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer .footer__container .footer__list .footer__list2 .footer__link .footer__icon {
-  width: 1.2rem;
-  margin-right: 0.5rem;
-}
-
-/* Fin de la partie Footer */
 /*# sourceMappingURL=style.min.css.map */
