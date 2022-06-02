@@ -11,6 +11,7 @@ body {
   padding: 0;
 }
 
+/* Partie Header */
 .header {
   padding: 1rem;
   -webkit-box-shadow: 0 0 0.5rem black;
@@ -24,6 +25,7 @@ body {
   text-align: center;
 }
 
+/* Fin de la partie Header */
 /* Partie Footer */
 .footer {
   background-color: #353535;
@@ -69,4 +71,6 @@ body {
   width: 1.2rem;
   margin-right: 0.5rem;
 }
+
+/* Fin de la partie Footer */
 /*# sourceMappingURL=style.min.css.map */
