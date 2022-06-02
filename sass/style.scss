@@ -22,12 +22,52 @@ body{
 }
 
 /* Partie Footer */
-.footer__container{
-    background-color: grey;
-}
-.footer__logo{
-    font-size: 1.2rem;
-    font-family: "Shrikhand", cursive;
-    margin: 0;
+.footer{
+    background-color: #353535;  
+
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        max-width: 1280px;
+        margin: auto;
+        position: relative;
     
+      .footer__logo{
+          color: #fff;
+          font-size: 1.2rem;
+          font-family: "Shrikhand", cursive;
+          margin: 0 0 1rem 0; 
+      }
+      .footer__list{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        .footer__list2{
+            margin: 0 0 0.5rem 0;
+
+          .footer__link{
+              color: #fff;
+              text-decoration: none;
+
+            .footer__icon{
+                width: 1.2rem;
+                margin-right: 0.5rem;
+            }  
+          }
+        } 
+      } 
+    }        
 }
+
+
+    
+           
+
+
+          
+      
+     
+
+
