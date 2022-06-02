@@ -12,13 +12,13 @@
   background-color: rgba(240, 238, 238, 0.462);
 }
 
-.location p {
+.location .location p {
   font-size: 19px;
   font-weight: 600;
   padding-left: 15px;
 }
 
-.location i {
+.location .location i {
   padding-bottom: 3.5px;
 }
 /*# sourceMappingURL=index.min.css.map */
