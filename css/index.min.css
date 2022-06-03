@@ -13,11 +13,11 @@
   position: relative;
 }
 
-.location .local_icon {
+.location__icon {
   margin-right: 1rem;
 }
 
-.location .location_text {
+.location__text {
   font-weight: 700;
 }
 
@@ -42,13 +42,43 @@
   top: 1.5rem;
   font-weight: 500;
   font-size: 1.1rem;
-  -webkit-box-shadow: 0.25rem 0.25rem 10px #bcb5b5;
-          box-shadow: 0.25rem 0.25rem 10px #bcb5b5;
+  -webkit-box-shadow: 5px 5px 10px;
+          box-shadow: 5px 5px 10px;
 }
 
-.description .explorer_btn:hover {
-  -webkit-box-shadow: 0.25rem 0.25rem 10px #bcb5b5;
-          box-shadow: 0.25rem 0.25rem 10px #bcb5b5;
+/* Partie Tutoriel*/
+.tuto {
+  padding: 2rem 1rem;
+}
+
+.tuto__container {
+  position: relative;
+}
+
+.tuto__title {
+  margin-top: 0;
+}
+
+.tuto__steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tuto__step {
+  padding: 1.5rem;
+  margin: 1rem 0 1rem 0.75rem;
+  border: 1px solid grey;
+  border-radius: 1.25rem;
+  position: relative;
+}
+
+.tuto::marker {
+  color: red;
 }
 
 /* Partie Restaurants */
