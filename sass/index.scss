@@ -60,11 +60,17 @@
                 margin: 1rem 0 1rem 0.75rem;
                 border: 1px solid grey;
                 border-radius: 1.25rem;
-                position: relative;
+                position: relative;    
             }
-                
-                &::marker{
+
+                &__icon{
+                    margin-right: 1rem;
+                    color: #7e7e7e;
+                }
+
+                li::marker{
                     color: red;
+                    position: absolute;  
                 }
     
 }

@@ -77,8 +77,14 @@
   position: relative;
 }
 
-.tuto::marker {
+.tuto__icon {
+  margin-right: 1rem;
+  color: #7e7e7e;
+}
+
+.tuto li::marker {
   color: red;
+  position: absolute;
 }
 
 /* Partie Restaurants */
