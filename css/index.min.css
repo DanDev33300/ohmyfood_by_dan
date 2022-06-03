@@ -8,7 +8,7 @@
           justify-content: center;
   padding: 1.25rem 1rem;
   background-color: rgba(240, 238, 238, 0.462);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   position: relative;
 }
 
@@ -29,9 +29,15 @@
 
 .description .explorer_btn {
   margin-top: 2rem;
-  border-radius: 10px;
-  background-color: #008000;
-  padding: 0.7rem;
+  border-radius: 23px;
+  background: #9356dc;
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
+  background: linear-gradient(0deg, #9356dc 0%, #ff79da 100%);
+  padding: 0.9rem;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  top: 2rem;
 }
 
 /* Partie Restaurants */
