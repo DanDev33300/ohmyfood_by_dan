@@ -75,6 +75,7 @@
   border: 1px solid grey;
   border-radius: 1.25rem;
   position: relative;
+  background-color: #f6f6f6;
 }
 
 .tuto__icon {
