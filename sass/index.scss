@@ -36,8 +36,7 @@
         top: 1.5rem;
         font-weight: 500;
         font-size: 1.1rem;
-        box-shadow: 5px 5px 10px;
-    }
+    }   
 }
 
 /* Partie Tutoriel*/
@@ -54,14 +53,18 @@
         &__steps{
             display: flex;
             flex-direction: column;
+            padding: 0;
         }
             &__step{
                 padding: 1.5rem;
                 margin: 1rem 0 1rem 0.75rem;
                 border: 1px solid grey;
                 border-radius: 1.25rem;
+                display: flex;
                 position: relative; 
                 background-color: #f6f6f6;   
+                box-shadow: 0.25rem 0.25rem 0.5rem;
+                
             }
 
                 &__icon{
@@ -72,7 +75,7 @@
                 li::marker{
                     color: red;
                     position: absolute;  
-                }
+                    }
     
 }
                

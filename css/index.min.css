@@ -42,8 +42,6 @@
   top: 1.5rem;
   font-weight: 500;
   font-size: 1.1rem;
-  -webkit-box-shadow: 5px 5px 10px;
-          box-shadow: 5px 5px 10px;
 }
 
 /* Partie Tutoriel*/
@@ -67,6 +65,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 0;
 }
 
 .tuto__step {
@@ -74,8 +73,13 @@
   margin: 1rem 0 1rem 0.75rem;
   border: 1px solid grey;
   border-radius: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   background-color: #f6f6f6;
+  -webkit-box-shadow: 0.25rem 0.25rem 0.5rem;
+          box-shadow: 0.25rem 0.25rem 0.5rem;
 }
 
 .tuto__icon {
