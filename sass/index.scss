@@ -1,5 +1,5 @@
 /* Partie Localisation */
-.location{
+.location {
     display: flex;
     justify-content: center;
     padding: 1.25rem 1rem;
@@ -8,27 +8,28 @@
     font-weight: 600;
     position: relative;
 
-    &__icon{
+    &__icon {
         margin-right: 1rem;
     }
 
-    &__text{
+    &__text {
         font-weight: 700;
     }
 }
+
 /* Fin de la partie Localisation */
 
 /* Partie Description */
-.description{
+.description {
     padding: 1rem;
     text-align: center;
     height: 267px;
     background: #f8f5f5;
 
-    .explorer_btn{
+    .explorer_btn {
         margin-top: 2rem;
-        border-radius: 23px ;
-        background: linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
+        border-radius: 23px;
+        background: linear-gradient(0deg, rgba(147, 86, 220, 1) 0%, rgba(255, 121, 218, 1) 100%);
         padding: 0.9rem;
         color: #fff;
         cursor: pointer;
@@ -36,115 +37,141 @@
         top: 1.5rem;
         font-weight: 500;
         font-size: 1.1rem;
-    }   
+        box-shadow: 0.25rem 0.25rem 10px grey;
+    }
 }
 
 /* Partie Tutoriel*/
-.tuto{
+.tuto {
     padding: 2rem 1rem;
 
-    &__container{
+    &__container {
         position: relative;
     }
-        &__title{
-            margin-top: 0;
-        }
 
-        &__steps{
-            display: flex;
-            flex-direction: column;
-            padding: 0;
-        }
-            &__step{
-                padding: 1.5rem;
-                margin: 1rem 0 1rem 0.75rem;
-                border: 1px solid grey;
-                border-radius: 1.25rem;
-                display: flex;
-                position: relative; 
-                background-color: #f6f6f6;   
-                box-shadow: 0.25rem 0.25rem 0.5rem;
-                
-            }
+    &__title {
+        margin-top: 0;
+    }
 
-                &__icon{
-                    margin-right: 1rem;
-                    color: #7e7e7e;
-                }
-
-                li::marker{
-                    color: red;
-                    position: absolute;  
-                    }
-    
-}
-               
-
-/* Partie Restaurants */
-.restaurants{
-    background-color: #f6f6f6;
-    padding: 2rem 1rem;
-    
-    .cards{
+    &__steps {
         display: flex;
         flex-direction: column;
-        gap: 2rem;   
-    
-      .card{
-          background-color: #fff;
-          border-radius: 1rem;
-          position: relative;
-          text-decoration: none;
-          color: inherit;
-          display: block;
+        padding: 0;
+    }
 
-        .card, img{
-            height: 12rem;
-            width: 100%;
-            border: 0 solid transparent;
-            border-radius: 1rem 1rem 0 0;
-            box-shadow: none;
-            object-fit: cover;
-        }
+    &__step {
+        padding: 1.5rem;
+        margin: 1rem 0 1rem 0.75rem;
+        border-radius: 1.25rem;
+        display: flex;
+        position: relative;
+        background-color: #f6f6f6;
+        box-shadow: 0.25rem 0.25rem 0.5rem rgb(224, 223, 225);
+        align-items: center;
+    }
 
-        .card__logonew{
-            background-color: #99e2d0;
-            color: #008000;
-            padding: 0.5rem;
-            position: absolute;
-            right: 0.75rem;
-            top: 1rem;
-            font-size: 0.75rem;
-            font-weight: 600;
-            border-radius: 0.175rem;
-        }
-        .card__footer{
-            display: flex;
-            align-items: center;
-            position: relative;
-            padding: 1rem;
+    &__number {
+        font-size: 1rem;
+        color: #fff;
+        position: absolute;
+        left: -10px;
+        border-radius: 50%;
+        background-color: #9356dc;
+        width: 23px;
+        height: 23px;
+        text-align: center;
+        padding-top: 2px;
+        
+    }
 
-            .card__heart {
-                position: absolute;
-                right: 2rem;
-                font-size: 32px;
-            }
-              
-            .card__description{
-               padding: 0;
-          
-            h3{
-                margin: 0 0 0.25rem 0;
-                font-size: 1.1rem;
-                
-            }
-            .card__location{
-                margin: 0
-            }
-          }
-        }
-      }
+    &__icon {
+        margin-right: 1rem;
+        color: #7e7e7e;
+
     }
 }
-/* Fin de la partie Restaurants */
 
+
+
+
+/* Partie Restaurants */
+.restaurants {
+    background-color: #f6f6f6;
+    padding: 2rem 1rem;
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        position: relative;
+
+        .card {
+            background-color: #fff;
+            border-radius: 1rem;
+            position: relative;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+
+
+
+            .card,
+            img {
+                height: 12rem;
+                width: 100%;
+                border: 0 solid transparent;
+                border-radius: 1rem 1rem 0 0;
+                box-shadow: none;
+                object-fit: cover;
+            }
+
+            .card__logonew {
+                background-color: #99e2d0;
+                color: #008000;
+                padding: 0.5rem;
+                position: absolute;
+                right: 0.75rem;
+                top: 1rem;
+                font-size: 0.75rem;
+                font-weight: 600;
+                border-radius: 0.175rem;
+            }
+
+            .card__footer {
+                display: flex;
+                align-items: center;
+                position: relative;
+                padding: 1rem;
+
+                .card__heart {
+                    position: absolute;
+                    right: 2rem;
+                    font-size: 25px;
+
+                    &:hover {
+                        background: linear-gradient(180deg, rgba(147, 86, 220, 1) 0%, rgba(255, 121, 218, 1) 70%);
+                        color: #fff;
+                        font-weight: 600;
+                        transform: scale(1.2);
+                    }
+                }
+
+                .card__description {
+                    padding: 0;
+
+                    h3 {
+                        margin: 0 0 0.25rem 0;
+                        font-size: 1.1rem;
+
+                    }
+
+                    .card__location {
+                        margin: 0
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Fin de la partie Restaurants */
