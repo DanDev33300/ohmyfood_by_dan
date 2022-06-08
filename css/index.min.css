@@ -46,7 +46,7 @@
           box-shadow: 0.25rem 0.25rem 10px grey;
 }
 
-.description :hover {
+.description .explorer_btn:hover {
   -webkit-transition-duration: 1000ms;
           transition-duration: 1000ms;
   background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), color-stop(60%, #ff79da));
