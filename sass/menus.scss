@@ -1,24 +1,42 @@
 /* Partie Header */
-.header{
+.header {
     padding: 1rem;
     box-shadow: 0 0 0.5rem rgb(0, 0, 0 / 25%);
     position: relative;
 
-      .return{
-          position: absolute;
-          bottom: 2rem;         
-      }
-        .return i{
-            font-size: 1.3rem;
-            color: black;
-        }
-    
-      .header__logo{
-          font-size: 2.3rem;
-          font-family: "Shrikhand", cursive;
-          margin: 0;
-          text-align: center;
-      }
+    .return {
+        position: absolute;
+        bottom: 2rem;
+    }
+
+    .return i {
+        font-size: 1.3rem;
+        color: black;
+    }
+
+    .header__logo {
+        font-size: 2.3rem;
+        font-family: "Shrikhand", cursive;
+        margin: 0;
+        text-align: center;
+    }
 }
+
 /* Fin de la partie Header */
 
+/* Partie Main : Header-Menus, Menus (entrées, plats et desserts) et Footer-Menus*/
+/* Header-Menus */
+.menu__header {
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+.menu__title {
+    font-family: "Shrikhand", cursive;
+}
+
+.menu__heart {
+    position: absolute;
+    right: 2rem;
+    font-size: 25px;
+}
