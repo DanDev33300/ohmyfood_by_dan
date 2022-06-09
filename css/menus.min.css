@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Partie Header */
 .header {
   padding: 1rem;
@@ -24,4 +25,34 @@
 }
 
 /* Fin de la partie Header */
+/* Partie Main : Header-Menus, Menus (entrées, plats et desserts) et Footer-Menus*/
+/* Header-Menus */
+.container_menus {
+  background-color: #f6f6f6;
+  padding: 1.2rem;
+  margin-top: -4rem;
+  border-radius: 2rem 2rem 0 0;
+  position: relative;
+}
+
+.menu__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  bottom: 0.9rem;
+}
+
+.menu__title {
+  font-family: "Shrikhand", cursive;
+}
+
+.menu__heart {
+  position: absolute;
+  left: 16rem;
+  font-size: 25px;
+}
 /*# sourceMappingURL=menus.min.css.map */
