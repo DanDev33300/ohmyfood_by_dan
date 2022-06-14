@@ -168,26 +168,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
   padding: 1rem;
-}
-
-.restaurants .cards .card .card__footer .card__heart {
-  position: absolute;
-  right: 2rem;
-  font-size: 25px;
-}
-
-.restaurants .cards .card .card__footer .card__heart:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), color-stop(70%, #ff79da));
-  background: linear-gradient(180deg, #9356dc 0%, #ff79da 70%);
-  color: #fff;
-  font-weight: 600;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
 }
 
 .restaurants .cards .card .card__footer .card__description {
@@ -201,6 +188,22 @@
 
 .restaurants .cards .card .card__footer .card__description .card__location {
   margin: 0;
+}
+
+.restaurants .cards .card .card__footer .card__heart {
+  position: relative;
+}
+
+.restaurants .cards .card .card__footer .card__heart .card__like--bg {
+  position: absolute;
+  opacity: 0;
+  color: red;
+  -webkit-transition: 0.40s;
+  transition: 0.40s;
+}
+
+.restaurants .cards .card .card__footer .card__heart .card__like--bg:hover {
+  opacity: 1;
 }
 
 /* Fin de la partie Restaurants */
