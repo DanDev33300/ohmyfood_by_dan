@@ -33,7 +33,6 @@
   margin-top: -4rem;
   border-radius: 2rem 2rem 0 0;
   position: relative;
-  /* Header-Menus */
 }
 
 .menu__header {
@@ -79,7 +78,6 @@
 
 /* Fin du Header-Menus */
 /* Menus */
-/* Les Entrées */
 .submenu__title {
   margin: 1.8rem 0 1rem 0;
   font-weight: lighter;
@@ -114,5 +112,41 @@
 .menu2__description {
   margin: 0;
   font-size: 0.7rem;
+}
+
+/* Fin des Menus */
+/* Footer-Menus */
+.footerBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.8rem 0;
+}
+
+.commandBtn {
+  border: transparent;
+  border-radius: 28px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
+  background: linear-gradient(0deg, #9356dc 0%, #ff79da 100%);
+  padding: 1rem 3.3rem;
+  color: #fff;
+  cursor: pointer;
+  top: 1.5rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  -webkit-box-shadow: 0.25rem 0.25rem 10px grey;
+          box-shadow: 0.25rem 0.25rem 10px grey;
+}
+
+.commandBtn :hover {
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), color-stop(60%, #ff79da));
+  background: linear-gradient(0deg, #9356dc 0%, #ff79da 60%);
+  -webkit-box-shadow: 0.50rem 0.50rem 10px grey;
+          box-shadow: 0.50rem 0.50rem 10px grey;
 }
 /*# sourceMappingURL=menus.min.css.map */
