@@ -33,10 +33,12 @@
     border-radius: 2rem 2rem 0 0;
     position: relative;
 
-/* Header-Menus */    
+    /* Header-Menus */
 }
+
 .menu__header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     position: relative;
     bottom: 0.9rem;
@@ -51,11 +53,25 @@
 }
 
 .menu__heart {
-    position: absolute;
-    left: 89%;
-    font-size: 25px;
+    position: relative;
+    font-size: 30px;
+
+    .menu__like--bg {
+        position: absolute;
+        opacity: 0;
+        transition: 0.40s;
+        top: 3px;
+        cursor: pointer;
+        color: aqua;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
 }
-/* Fin du Header-Menus */ 
+
+/* Fin du Header-Menus */
 
 /* Menus */
 /* Les Entrées */
@@ -64,6 +80,7 @@
     font-weight: lighter;
     font-size: 0.9rem;
 }
+
 .menu2__header {
     display: flex;
     position: relative;

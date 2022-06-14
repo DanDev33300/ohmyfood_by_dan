@@ -40,6 +40,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -56,9 +59,22 @@
 }
 
 .menu__heart {
+  position: relative;
+  font-size: 30px;
+}
+
+.menu__heart .menu__like--bg {
   position: absolute;
-  left: 89%;
-  font-size: 25px;
+  opacity: 0;
+  -webkit-transition: 0.40s;
+  transition: 0.40s;
+  top: 3px;
+  cursor: pointer;
+  color: aqua;
+}
+
+.menu__heart .menu__like--bg:hover {
+  opacity: 1;
 }
 
 /* Fin du Header-Menus */
