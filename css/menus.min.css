@@ -95,7 +95,7 @@
   top: 23px;
 }
 
-.menu2__header {
+.menu2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,23 +106,35 @@
   border-radius: 13px;
 }
 
-.menu2__price {
-  position: absolute;
-  left: 88%;
-  top: 56%;
-  font-size: 0.8rem;
-  font-weight: bold;
+.menu2__header {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .menu2__title {
   margin: 0;
   padding-bottom: 0.3rem;
   font-size: 0.8rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .menu2__description {
   margin: 0;
   font-size: 0.7rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.menu2__price {
+  position: absolute;
+  left: 88%;
+  top: 56%;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
 /* Animation Check */
@@ -139,6 +151,11 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: pointer;
+}
+
+.menu2__approve :hover {
+  margin-right: -1rem;
 }
 
 .menu2__check {
@@ -155,10 +172,17 @@
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 100px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .menu2__icon {
   color: #99e2d0;
+}
+
+.menu2__icon :hover {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
 }
 
 /* Fin des Menus */
@@ -171,6 +195,15 @@
       -ms-flex-pack: center;
           justify-content: center;
   padding: 1.8rem 0;
+}
+
+.footerBtn :hover {
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), color-stop(60%, #ff79da));
+  background: linear-gradient(0deg, #9356dc 0%, #ff79da 60%);
+  -webkit-box-shadow: 0.50rem 0.50rem 10px grey;
+          box-shadow: 0.50rem 0.50rem 10px grey;
 }
 
 .commandBtn {
@@ -186,15 +219,6 @@
   font-size: 1.1rem;
   -webkit-box-shadow: 0.25rem 0.25rem 10px grey;
           box-shadow: 0.25rem 0.25rem 10px grey;
-}
-
-.commandBtn :hover {
-  -webkit-transition-duration: 1000ms;
-          transition-duration: 1000ms;
-  background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), color-stop(60%, #ff79da));
-  background: linear-gradient(0deg, #9356dc 0%, #ff79da 60%);
-  -webkit-box-shadow: 0.50rem 0.50rem 10px grey;
-          box-shadow: 0.50rem 0.50rem 10px grey;
 }
 
 /* Fin du Footer-Menus */

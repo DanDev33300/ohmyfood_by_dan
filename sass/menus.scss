@@ -88,13 +88,36 @@
     }
 }
 
-.menu2__header {
+.menu2 {
     display: flex;
     position: relative;
     margin-bottom: 1rem;
     background-color: #fff;
     padding: 0.8rem;
     border-radius: 13px;
+}
+
+.menu2__header {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.menu2__title {
+    margin: 0;
+    padding-bottom: 0.3rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.menu2__description {
+    margin: 0;
+    font-size: 0.7rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .menu2__price {
@@ -105,17 +128,6 @@
     font-weight: bold;
 }
 
-.menu2__title {
-    margin: 0;
-    padding-bottom: 0.3rem;
-    font-size: 0.8rem;
-}
-
-.menu2__description {
-    margin: 0;
-    font-size: 0.7rem;
-}
-
 /* Animation Check */
 .menu2__approve {
     background-color: #99e2d0;
@@ -124,6 +136,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+
+.menu2__approve :hover {
+    margin-right: -1rem;
 }
 
 .menu2__check {
@@ -134,11 +151,17 @@
     align-items: center;
     justify-content: center;
     border-radius: 100px;
+    transform: rotate(180deg);
 }
 
 .menu2__icon {
     color: #99e2d0;
 }
+
+.menu2__icon :hover {
+    transform: rotate(0);
+}
+
 
 
 /* Fin des Menus */
@@ -148,6 +171,12 @@
     display: flex;
     justify-content: center;
     padding: 1.8rem 0;
+}
+    
+.footerBtn :hover {
+    transition-duration: 1000ms;
+    background: linear-gradient(0deg, rgba(147, 86, 220, 1) 0%, rgba(255, 121, 218, 1) 60%);
+    box-shadow: 0.50rem 0.50rem 10px grey;
 }
 
 .commandBtn {
@@ -162,11 +191,4 @@
     font-size: 1.1rem;
     box-shadow: 0.25rem 0.25rem 10px grey;
 }
-
-.commandBtn :hover {
-    transition-duration: 1000ms;
-    background: linear-gradient(0deg, rgba(147, 86, 220, 1) 0%, rgba(255, 121, 218, 1) 60%);
-    box-shadow: 0.50rem 0.50rem 10px grey;
-}
-
 /* Fin du Footer-Menus */
