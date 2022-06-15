@@ -106,6 +106,31 @@
     font-size: 0.7rem;
 }
 
+/* Animation Check */
+.menu2__approve {
+    background-color: #99e2d0;
+    margin: -0.8rem -5rem -0.8rem 1rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu2__check {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.menu2__icon {
+        color: #99e2d0;
+    }
+
+
 /* Fin des Menus */
 
 /* Footer-Menus */
@@ -133,3 +158,5 @@
     background: linear-gradient(0deg, rgba(147, 86, 220, 1) 0%, rgba(255, 121, 218, 1) 60%);
     box-shadow: 0.50rem 0.50rem 10px grey;
 }
+
+/* Fin du Footer-Menus */
