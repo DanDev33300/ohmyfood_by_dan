@@ -98,7 +98,7 @@
     box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
     overflow: hidden;
     cursor: pointer;
-    
+
     &:hover .menu2__approve {
         margin-right: -1rem;
     }
@@ -167,7 +167,49 @@
 .menu2__icon {
     color: #99e2d0;
 }
+
 /* Fin des Menus */
+
+/* Animation - Apparition des menus */
+.up {
+    animation: fadein 1s;
+}
+
+.up--1 {
+    animation-delay: 50ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.up--2 {
+    animation-delay: 150ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.up--3 {
+    animation-delay: 300ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.up--4 {
+    animation-delay: 450ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadein {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 
 /* Footer-Menus */
 .footerBtn {
@@ -175,7 +217,7 @@
     justify-content: center;
     padding: 1.8rem 0;
 }
-    
+
 .footerBtn :hover {
     transition-duration: 1000ms;
     background: linear-gradient(0deg, rgba(147, 86, 220, 1) 0%, rgba(255, 121, 218, 1) 60%);
@@ -194,4 +236,5 @@
     font-size: 1.1rem;
     box-shadow: 0.25rem 0.25rem 10px grey;
 }
+
 /* Fin du Footer-Menus */
