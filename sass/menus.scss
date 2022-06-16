@@ -171,35 +171,35 @@
 /* Fin des Menus */
 
 /* Animation - Apparition des menus */
-.up {
-    animation: fadein 1s;
+.step {
+    animation: sequence 1s;
 }
 
-.up--1 {
+.step--1 {
     animation-delay: 50ms;
     animation-fill-mode: forwards;
     opacity: 0;
 }
 
-.up--2 {
+.step--2 {
     animation-delay: 150ms;
     animation-fill-mode: forwards;
     opacity: 0;
 }
 
-.up--3 {
+.step--3 {
     animation-delay: 300ms;
     animation-fill-mode: forwards;
     opacity: 0;
 }
 
-.up--4 {
+.step--4 {
     animation-delay: 450ms;
     animation-fill-mode: forwards;
     opacity: 0;
 }
 
-@keyframes fadein {
+@keyframes sequence {
     from {
         transform: translateY(20px);
         opacity: 0;

@@ -97,6 +97,41 @@
     }
 }
 
+/* Animation - Apparition des steps Tuto */
+.step {
+    animation: sequence 1s;
+}
+
+.step--1 {
+    animation-delay: 50ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.step--2 {
+    animation-delay: 150ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.step--3 {
+    animation-delay: 300ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes sequence {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 /* Partie Restaurants */
 .restaurants {
     background-color: #f6f6f6;

@@ -113,6 +113,62 @@
   color: #7e7e7e;
 }
 
+/* Animation - Apparition des steps Tuto */
+.step {
+  -webkit-animation: sequence 1s;
+          animation: sequence 1s;
+}
+
+.step--1 {
+  -webkit-animation-delay: 50ms;
+          animation-delay: 50ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.step--2 {
+  -webkit-animation-delay: 150ms;
+          animation-delay: 150ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.step--3 {
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@-webkit-keyframes sequence {
+  from {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes sequence {
+  from {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 /* Partie Restaurants */
 .restaurants {
   background-color: #f6f6f6;

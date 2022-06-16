@@ -204,12 +204,12 @@
 
 /* Fin des Menus */
 /* Animation - Apparition des menus */
-.up {
-  -webkit-animation: fadein 1s;
-          animation: fadein 1s;
+.step {
+  -webkit-animation: sequence 1s;
+          animation: sequence 1s;
 }
 
-.up--1 {
+.step--1 {
   -webkit-animation-delay: 50ms;
           animation-delay: 50ms;
   -webkit-animation-fill-mode: forwards;
@@ -217,7 +217,7 @@
   opacity: 0;
 }
 
-.up--2 {
+.step--2 {
   -webkit-animation-delay: 150ms;
           animation-delay: 150ms;
   -webkit-animation-fill-mode: forwards;
@@ -225,7 +225,7 @@
   opacity: 0;
 }
 
-.up--3 {
+.step--3 {
   -webkit-animation-delay: 300ms;
           animation-delay: 300ms;
   -webkit-animation-fill-mode: forwards;
@@ -233,7 +233,7 @@
   opacity: 0;
 }
 
-.up--4 {
+.step--4 {
   -webkit-animation-delay: 450ms;
           animation-delay: 450ms;
   -webkit-animation-fill-mode: forwards;
@@ -241,7 +241,7 @@
   opacity: 0;
 }
 
-@-webkit-keyframes fadein {
+@-webkit-keyframes sequence {
   from {
     -webkit-transform: translateY(20px);
             transform: translateY(20px);
@@ -254,7 +254,7 @@
   }
 }
 
-@keyframes fadein {
+@keyframes sequence {
   from {
     -webkit-transform: translateY(20px);
             transform: translateY(20px);
