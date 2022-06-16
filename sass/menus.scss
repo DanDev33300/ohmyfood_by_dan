@@ -104,7 +104,7 @@
     }
 
     &:hover .menu2__check {
-        transform: rotate(0);
+        transform: rotate(360deg);
     }
 }
 
@@ -160,7 +160,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 100px;
-    transform: rotate(180deg);
+    transform: rotate(90deg);
     transition-duration: .5s;
 }
 
