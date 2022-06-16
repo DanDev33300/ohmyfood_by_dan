@@ -154,10 +154,6 @@
   cursor: pointer;
 }
 
-.menu2__approve :hover {
-  margin-right: -1rem;
-}
-
 .menu2__check {
   height: 1.6rem;
   width: 1.6rem;
@@ -178,11 +174,6 @@
 
 .menu2__icon {
   color: #99e2d0;
-}
-
-.menu2__icon :hover {
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
 }
 
 /* Fin des Menus */
