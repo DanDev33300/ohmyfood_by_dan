@@ -95,12 +95,24 @@
     background-color: #fff;
     padding: 0.8rem;
     border-radius: 13px;
+    box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    
+    &:hover .menu2__approve {
+        margin-right: -1rem;
+    }
+
+    &:hover .menu2__check {
+        transform: rotate(0);
+    }
 }
 
 .menu2__header {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    flex: 1;
 }
 
 .menu2__title {
@@ -121,11 +133,12 @@
 }
 
 .menu2__price {
-    position: absolute;
-    left: 88%;
-    top: 56%;
-    font-size: 0.8rem;
-    font-weight: bold;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 0.5rem;
+    font-size: 14px;
 }
 
 /* Animation Check */
@@ -136,11 +149,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
-}
-
-.menu2__approve :hover {
-    margin-right: -1rem;
+    transition-duration: 0.5s;
 }
 
 .menu2__check {
@@ -152,6 +161,7 @@
     justify-content: center;
     border-radius: 100px;
     transform: rotate(180deg);
+    transition-duration: .5s;
 }
 
 .menu2__icon {

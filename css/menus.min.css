@@ -104,12 +104,28 @@
   background-color: #fff;
   padding: 0.8rem;
   border-radius: 13px;
+  -webkit-box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.menu2:hover .menu2__approve {
+  margin-right: -1rem;
+}
+
+.menu2:hover .menu2__check {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
 }
 
 .menu2__header {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .menu2__title {
@@ -130,11 +146,18 @@
 }
 
 .menu2__price {
-  position: absolute;
-  left: 88%;
-  top: 56%;
-  font-size: 0.8rem;
-  font-weight: bold;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-left: 0.5rem;
+  font-size: 14px;
 }
 
 /* Animation Check */
@@ -151,7 +174,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  cursor: pointer;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .menu2__check {
@@ -170,6 +194,8 @@
   border-radius: 100px;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
 }
 
 .menu2__icon {
