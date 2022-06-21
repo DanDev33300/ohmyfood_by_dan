@@ -198,11 +198,14 @@
                     .card__like--bg {
                         position: absolute;
                         opacity: 0;
-                        color: red;
                         transition: 0.40s;
+                        background: linear-gradient(#9356DC, #FF79DA);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
 
                         &:hover {
                             opacity: 1;
+                            transform: scale(1.1);
                         }
                     }
                 }
@@ -213,31 +216,47 @@
 
 /* Fin de la partie Restaurants */
 
+/* Animation du Loader Spinner */
 /* Loader Général */
-.bloc-page {
-    animation: whitepage 5s;
+.fade-in-page {
+    animation: whitepage 4.5s;
+    position: relative;
 }
 
 @keyframes whitepage {
-	0% {
-	  	opacity: 0.025;
-	}
-  
-	50% {
-	  	opacity: 0.050;
-	}
-  
-	100% {
-	  	opacity: 1;
-	}
+    0% {
+        opacity: 0.025;
+    }
+
+    50% {
+        opacity: 0.050;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .loader-spinner {
     position: fixed;
     width: 100%;
-    height: 50px;
-    top: 124px;
+    height: 100px;
+    top: 50%;
     left: 50%;
+    display: flex;
+    animation: bars 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+
+@keyframes bars {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 /* Loader Barres */

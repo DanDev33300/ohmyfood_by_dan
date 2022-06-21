@@ -7,6 +7,13 @@ body{
     font-family: 'Roboto', Arial, 'Arial Black', Impact, 'Times New Roman', sans-serif;
     margin: 0;
     padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+    // display: flex;
+    // justify-content: center;
+}
+
+.global_page {
+    // max-width: 600px;
 }
 
 /* Partie Header */

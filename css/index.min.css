@@ -254,20 +254,27 @@
 .restaurants .cards .card .card__footer .card__heart .card__like--bg {
   position: absolute;
   opacity: 0;
-  color: red;
   -webkit-transition: 0.40s;
   transition: 0.40s;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+  background: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .restaurants .cards .card .card__footer .card__heart .card__like--bg:hover {
   opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 /* Fin de la partie Restaurants */
+/* Animation du Loader Spinner */
 /* Loader Général */
-.bloc-page {
-  -webkit-animation: whitepage 5s;
-          animation: whitepage 5s;
+.fade-in-page {
+  -webkit-animation: whitepage 4.5s;
+          animation: whitepage 4.5s;
+  position: relative;
 }
 
 @-webkit-keyframes whitepage {
@@ -297,9 +304,36 @@
 .loader-spinner {
   position: fixed;
   width: 100%;
-  height: 50px;
-  top: 124px;
+  height: 100px;
+  top: 50%;
   left: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation: bars 2s;
+          animation: bars 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+@-webkit-keyframes bars {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes bars {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 /* Loader Barres */

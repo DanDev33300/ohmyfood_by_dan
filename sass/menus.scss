@@ -58,12 +58,15 @@
         position: absolute;
         opacity: 0;
         transition: 0.40s;
-        top: 3px;
+        top: 2px;
         cursor: pointer;
-        color: aqua;
+        background: linear-gradient(#9356DC, #FF79DA);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 
         &:hover {
             opacity: 1;
+            transform: scale(1.1);
         }
     }
 }
