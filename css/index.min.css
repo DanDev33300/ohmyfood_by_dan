@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Partie Localisation */
 .location {
   display: -webkit-box;
@@ -263,4 +264,117 @@
 }
 
 /* Fin de la partie Restaurants */
+/* Loader Général */
+.bloc-page {
+  -webkit-animation: whitepage 5s;
+          animation: whitepage 5s;
+}
+
+@-webkit-keyframes whitepage {
+  0% {
+    opacity: 0.025;
+  }
+  50% {
+    opacity: 0.050;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes whitepage {
+  0% {
+    opacity: 0.025;
+  }
+  50% {
+    opacity: 0.050;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.loader-spinner {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: 124px;
+  left: 50%;
+}
+
+/* Loader Barres */
+.loader-bars::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background-color: #9356dc;
+  -webkit-animation: grow 1.5s linear infinite;
+          animation: grow 1.5s linear infinite;
+}
+
+.loader-bars::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 15px;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background-color: #99e2d0;
+  -webkit-animation: grow 1.5s linear -0.5s infinite;
+          animation: grow 1.5s linear -0.5s infinite;
+}
+
+.loader-bars span {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 30px;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background-color: #ff79da;
+  -webkit-animation: grow 1.5s linear -1s infinite;
+          animation: grow 1.5s linear -1s infinite;
+}
+
+@-webkit-keyframes grow {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    opacity: 0;
+  }
+}
+
+@keyframes grow {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    opacity: 0;
+  }
+}
 /*# sourceMappingURL=index.min.css.map */
