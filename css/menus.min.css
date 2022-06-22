@@ -166,6 +166,16 @@
   font-size: 14px;
 }
 
+@media screen and (min-width: 768px) {
+  .submenus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
 /* Animation Check */
 .menu2__approve {
   background-color: #99e2d0;
