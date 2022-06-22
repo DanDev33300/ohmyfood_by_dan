@@ -97,6 +97,25 @@
     }
 }
 
+@media screen and (min-width: 1024px) {
+
+    .tuto__steps {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .tuto__step {
+        width: 30%;
+        padding: 20px 20px 20px 49px;
+    }
+
+    .tuto__title {
+        text-align: center;
+    }
+   
+}
+
 /* Animation - Apparition des steps Tuto */
 .step {
     animation: sequence 1s;
