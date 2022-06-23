@@ -95,7 +95,7 @@
   content: "";
   width: 2.3rem;
   height: 0.20rem;
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   position: absolute;
   left: 0;
   top: 23px;
@@ -181,7 +181,7 @@
 
 /* Animation Check */
 .menu2__approve {
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   margin: -0.8rem -5rem -0.8rem 1rem;
   width: 4rem;
   display: -webkit-box;
@@ -218,7 +218,7 @@
 }
 
 .menu2__icon {
-  color: #99e2d0;
+  color: #99E2D0;
 }
 
 /* Fin des Menus */

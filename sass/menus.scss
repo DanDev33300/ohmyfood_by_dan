@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+$color-primary: #9356DC;
+$color-secondary: #FF79DA;
+$color-tertiary: #99E2D0;
 
 /* Partie Header */
 .header {
@@ -86,7 +89,7 @@
         content: "";
         width: 2.3rem;
         height: 0.20rem;
-        background-color: #99e2d0;
+        background-color: $color-tertiary;
         position: absolute;
         left: 0;
         top: 23px;
@@ -159,7 +162,7 @@
 
 /* Animation Check */
 .menu2__approve {
-    background-color: #99e2d0;
+    background-color: $color-tertiary;
     margin: -0.8rem -5rem -0.8rem 1rem;
     width: 4rem;
     display: flex;
@@ -181,7 +184,7 @@
 }
 
 .menu2__icon {
-    color: #99e2d0;
+    color: $color-tertiary;
 }
 
 /* Fin des Menus */
