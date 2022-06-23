@@ -113,7 +113,7 @@
     .tuto__title {
         text-align: center;
     }
-   
+
 }
 
 /* Animation - Apparition des steps Tuto */
@@ -157,9 +157,6 @@
     padding: 2rem 1rem;
 
     .cards {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
         position: relative;
 
         .card {
@@ -169,6 +166,7 @@
             text-decoration: none;
             color: inherit;
             display: block;
+            margin: 0 0 2rem 0;
 
             .card,
             img {
@@ -230,6 +228,22 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card {
+        min-width: 45%;
+    }
+
+    .restaurants__title {
+        text-align: center;
     }
 }
 
