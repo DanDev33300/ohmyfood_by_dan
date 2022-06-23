@@ -231,7 +231,7 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .cards {
         display: flex;
         flex-wrap: wrap;
@@ -241,7 +241,9 @@
     .card {
         min-width: 45%;
     }
+}
 
+@media screen and (min-width: 1024px) {
     .restaurants__title {
         text-align: center;
     }
