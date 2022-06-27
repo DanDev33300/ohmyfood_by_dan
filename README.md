@@ -88,3 +88,16 @@ les animations ou transitions CSS, pas de JavaScript ni de librairie.
     ls pourront soit apparaître un par un, soit par groupe “Entrée”, “Plat” et “Dessert”. Un exemple de l’effet attendu est fourni.
   * Le visiteur peut ajouter les plats qu'il souhaite à sa commande en cliquant dessus. Cela fait apparaître une petite coche à droite du plat. 
     Cette coche devra coulisser de la droite vers la gauche. Pour cette première version, l’effet peut apparaître au survol sur desktop au lieu du clic. Si l’intitulé du plat est trop long, il devra être rogné avec des points de suspension. Un exemple de l’effet attendu est fourni.
+
+### Identité graphique
+
+* Polices
+
+  * Logo et titres : Shrikhand
+  * Texte : Roboto
+
+* Couleurs 
+
+  * Primaire : #9356DC
+  * Secondaire : #FF79DA
+  * Tertiaire : #99E2D0
