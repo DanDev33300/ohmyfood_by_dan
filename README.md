@@ -10,7 +10,8 @@ __Mettre gras du texte__
 
 *Mettre en italique*
 
-Je tape du texte et je voudrais  revenir à la ligne
+Je tape du texte et  
+je voudrais revenir à la ligne
 
 Faire une liste à puce
 *élément 1
