@@ -211,8 +211,7 @@
   margin: 0 0 2rem 0;
 }
 
-.restaurants .cards .card .card,
-.restaurants .cards .card img {
+.restaurants .cards .card .card, .restaurants .cards .card img {
   height: 12rem;
   width: 100%;
   border: 0 solid transparent;

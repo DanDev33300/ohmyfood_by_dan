@@ -71,8 +71,7 @@ Les effets accessibles au clic ou au survol sont visibles sur la maquette.
 
   * Au survol, la couleur de fond des boutons principaux s’éclaircie légèrement.
     L’ombre portée est également visible;
-  * À terme, les visiteurs pourront sauvegarder leurs menus préférés. Pour ça, un bouton "J’aime" en forme de coeur est présent sur  
-    la maquette. Au clic, il se remplit progressivement.  
+  * À terme, les visiteurs pourront sauvegarder leurs menus préférés. Pour ça, un bouton "J’aime" en forme de coeur est présent sur la maquette. Au clic, il se remplit progressivement.  
     Pour cette version, l'effet apparaît au survol sur desktop.
 
 * Page d'accueil 
@@ -84,7 +83,7 @@ Les effets accessibles au clic ou au survol sont visibles sur la maquette.
 * Page de menu
 
   * À l’arrivée sur la page, les plats apparaîssent progressivement avec un léger décalage dans le temps.  
-    Ils apparaîssent un par un, soit par groupe “Entrée”, “Plat” et “Dessert”.
+    Ils apparaîssent un par un.
   * Le visiteur peut ajouter les plats qu'il souhaite à sa commande en cliquant dessus. Cela fait apparaître une petite coche à droite du plat. 
     Cette coche coulisse de la droite vers la gauche. Pour cette première version, l’effet apparaît au survol sur desktop. Si l’intitulé du plat est trop long, il dst rogné avec des points de suspension.
 
